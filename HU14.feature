@@ -4,7 +4,7 @@ Scenario: Programar recordatorios
 Given que se verificó en el sistema que se han creado correctamente los recordatorios
 And el usuario se encuentra en el formulario “Crear recordatorios”
 When el usuario selecciona la opción "Crear" 
-Then  el Sistema envía alarmas de recordatorio al dispositivo móvil del suario
+Then  el Sistema envía alarmas de recordatorio al dispositivo móvil del usuario
 
 Examples:
 
